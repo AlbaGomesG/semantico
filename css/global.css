@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(179, 125, 230);
+    color: aliceblue;
+}
+
+.site-header{
+    background-color: rgb(116, 116, 202);
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+    text-align: center;
+}
+
