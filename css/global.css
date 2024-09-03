@@ -7,14 +7,23 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: rgb(179, 125, 230);
-    color: aliceblue;
+    background-color: rgb(189, 145, 230);
+    color: rgb(0, 0, 0);
 }
 
 .site-header{
-    background-color: rgb(116, 116, 202);
-    color: rgb(0, 0, 0);
-    padding: 1rem 0;
+    background-color: rgb(137, 67, 230);
+    color: aliceblue;
+    padding: 20px;
     text-align: center;
+}
+.site-title{
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+.main-nav .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
