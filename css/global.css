@@ -110,6 +110,14 @@ body{
     margin-top: 5px;
 }
 
+.article-footer {
+    border-top: 2px solid #eee;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: #777;
+    font-size: 0.9em;
+}
+
 .sidebar{
     flex: 1;
     background-color: rgb(146, 60, 245);
@@ -129,10 +137,36 @@ body{
     line-height: 1.5;
 }
 
+/* Rodapé */
+
 .site-footer{
     background-color: rgb(0, 0, 0);
-    color: rgb(137, 67, 230);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px;
+    padding: 15px 0;
     margin-top: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.author-name,
+.author-email {
+    margin-bottom: 5px;
+}
+
+.e-mail-link {
+    color: #741eff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.e-mail-link:hover {
+    color: #ffffff;
+}
+
+.footer-copy {
+    font-size: 0.9em;
+    color: #ccc;
 }
